@@ -53,7 +53,7 @@ public class ViviendasIntesidadUso {
         mostrarTop3Municipios(municipios);
     }
     
-    public static void mostrarTop3Municipios(List<Municipio> municipios) {
+    private static void mostrarTop3Municipios(List<Municipio> municipios) {
         municipios.sort((a, b) -> Double.compare(b.valor, a.valor));
 
         System.out.println("Municipios con mediana más alta:");
