@@ -48,7 +48,7 @@ public class ViviendasIntesidadUso {
                 }
             }
         } catch (Exception e) {
-            System.out.println("Algo a fallado");
+            System.out.println("Algo ha fallado");
         }
         mostrarTop3Municipios(municipios);
     }
